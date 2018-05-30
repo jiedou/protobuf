@@ -76,3 +76,15 @@ The complete documentation for Protocol Buffers is available via the
 web at:
 
 https://developers.google.com/protocol-buffers/
+
+环境安装笔记：
+$ sh autogen.sh
+$ yum -y install gcc-c++ gcc
+$ ./configure --prefix=/usr/local
+$ make && make check && make install && ldconfig
+$ export PKG_CONFIG_PATH=/usr/local/lib/pkgconfig/
+$ cd python
+$ python setup.py build && python setup.py test && python setup.py install
+$ cd examples/
+$ make
+$
