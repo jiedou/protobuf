@@ -77,7 +77,7 @@ web at:
 
 https://developers.google.com/protocol-buffers/
 
-环境安装笔记：
+环境安装笔记：<br/>
 $ sh autogen.sh<br/>
 $ yum -y install gcc-c++ gcc<br/>
 $ ./configure --prefix=/usr/local<br/>
